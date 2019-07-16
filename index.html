@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex弹性布局</title>
+</head>
+    <style type="text/css">
+        .page-body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            font-size: 5vw;
+            flex-wrap: wrap;
+        }
+        .page-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .page-item img{
+            width: 9em;
+            height: 9em;
+        }
+    </style>
+<body>
+    <div class="page-body">
+        <div class="page-item">
+            <img src="http://img.5nd.com/photo/2019album/20197/92662.jpg" alt="  ">
+            <span>大风吹</span>
+            <span>曾沛慈</span>
+        </div>
+        <div class="page-item">
+            <img src="http://img.5nd.com/photo/2019album/20197/92538.jpg" alt="">
+            <span>对不起拜拜</span>
+            <span>卢西（Luci）</span>
+        </div>
+        <div class="page-item">
+            <img src="http://img.5nd.com/photo/2019album/20197/92512.jpg" alt="">
+            <span>荒原</span>
+            <span>野小马</span>
+        </div>
+        <div class="page-item">
+            <img src="http://img.5nd.com/photo/2019album/20197/92563.jpg" alt="">
+            <span>炼金术</span>
+            <span>信</span>
+        </div>
+        <div class="page-item">
+            <img src="http://img.5nd.com/photo/2019album/20197/92525.jpg" alt="">
+            <span>海与鸥</span>
+            <span>楼一萱</span>
+        </div>
+    </div>   
+</body>
+</html>
